@@ -92,13 +92,7 @@ function loadStatsPage()
 	var losstable= document.getElementById("losses");
 	var wintable = document.getElementById("wins");
 	for(row_counter = 2; row_counter < table.rows.length; row_counter++)
-	{//Outer for loop iterates over each row
-		for(col_counter=0; col_counter < table.rows[row_counter].cells.length; col_counter++)
-		{
-			cell_value = table.rows[row_counter].cells[col_counter].innerHTML;
-			
-		}
-
+	{
 		score1 = table.rows[row_counter].cells[2].innerHTML;
 		score2 = table.rows[row_counter].cells[3].innerHTML;
 		
